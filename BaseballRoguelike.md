@@ -17,7 +17,7 @@ This is more important than you think even in a non-commercial environment. It s
 A tag line is a statement or phrase that brands your game. Famous tag lines are "Just do it!", "Got milk?", "The King of Beers". Or from the video game world: Dark Souls: "Prepare to Die", Dead Space: "Only the Dead Survive", Deus Ex: "Trust no one. Question Everything", Pokémon: "Gotta catch em all!"
 
 ### Team
-Nicholas Tillo
+Names and roles. Remember that your client is part of the team.
 
 ### Date of Last Update
 
@@ -48,11 +48,13 @@ There's a significant difference in a game teaching biology to a kindergartener 
 ---
 
 ## Gameplay
-The gameplay loop will start the player in the space ship, in which they are presented with a random grid of the game of life, representing the space ship's population. They can then take actions to change the game state, buying upgrades, changing the grid by changing specific cells, or eventually contunie by going to the next iteration. 
+This section would tell a player what to expect. Not a lot of detail (that comes later).
 
 ### Objectives
-The goal is to make it to the highest iteration/generation count, with a side objective of generating as much resource as possible, as the resoruce will be used for buying permenant upgrades in the future. 
+What are the objectives of the game? Is it to reach a destination, retrieve the chalice, accrue the most money, or solve a puzzle in the fastest amount of time?
 
+### Game Progression and Play Flow
+How does the game flow for the game player? Is there an overall scoring and objective for the game or is it a progression of levels?
 
 ### Mission, Challenge or Puzzle Structure
 
@@ -67,10 +69,11 @@ Include both implicit and explicit rules.
 ### Model of the Game Universe
 Think of it as a simulation of a world — how do all the pieces interact? If it is a puzzle game, there may be no universe to discuss, but there is the layout and the structure of the puzzle. Included in the universe are:
 
+### Physics
+How does the physical universe work? If there are no physics, do not try to create them.
 
 ### Economy
-2 Resoures the player will use, money, and resource 1. Money will be used to affect the state of the game within the gameplay loop. the resource 1 will be used to affect the initial starting point of the game, and carries throughout the gameplay loop iterations. 
-
+What is the economy of the game? How does it work? The economy includes the items that the player is trying to collect as well as a world economy. How does a player earn or lose these items?
 
 ### Character Actions
 
@@ -78,34 +81,21 @@ Think of it as a simulation of a world — how do all the pieces interact? If it
 How does the character move?
 
 #### Objects
-##### Classes: 
-
-Alive: As In Conways Game Of Life
-
-Dead: As in Conways Game Of Life
-
-Zombie: If > 3 alive neighbours, or < 1 neighbour, turns dead, else stays a zombie and turns the rest of the surrounding alives into zombies. 
+How to pick them up and move them. Are there key objects of importance that should be identified here? Is there an inventory that the player maintains or are all interactions transitory?
 
 #### Actions
+What else can the player (or character) do? Include any in-game switches and buttons that are used, interacting with objects, and what means of communication are used.
 
-While the player is in the gameplay loop. They are able to do the following: 
-Change any cell to the classes the player has unlocked (Usually for a price), Purchase In round Upgrades. 
-
-Upgrades: The possible list of upgrades that can be made by the player are: 
-Increased Grid Size. 
-
-
+#### Combat
+If there is combat or even conflict, how is this specifically modeled? What are the differences in weapons?
 
 ### Screen Flow
-!! -- iNSERT DIAGRAM HERE--!! 
-Start from main menu, then to main game, then to death screen, or main menu to upgrade menu, then back. 
-
+How each screen is related to every other and a description of the purpose of each screen.
 
 ### Game Options
-
+What are the options and how do they affect game play?
 
 ### Replaying and Saving
-The player will be unable to save their in game play, but they will be able to save their upgrades and resources outside of the game. 
 
 ### Cheats and Easter Eggs
 If there are any.
@@ -188,7 +178,7 @@ How does the game player control the game? What are the specific commands?
 ### Audio, Music, and Sound Effects
 
 ### Game Art
-The game will be intentionally simplistic, to emulate the enviroment in which the game of life was mostly used. In early computing. It will intentionally rely on the nostalgia of early 2000s computer graphics. 
+Intended style.
 
 ### Help System
 
