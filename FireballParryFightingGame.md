@@ -11,7 +11,7 @@ You do not need to include all topics and you do not need to use the numbered ou
 ## Title Page (page and all elements are required)
 
 ### Game Name
-This is more important than you think even in a non-commercial environment. It sets the tone for the game's use and gives it an identity.
+The Fireball Game
 
 ### Tag Line
 A tag line is a statement or phrase that brands your game. Famous tag lines are "Just do it!", "Got milk?", "The King of Beers". Or from the video game world: Dark Souls: "Prepare to Die", Dead Space: "Only the Dead Survive", Deus Ex: "Trust no one. Question Everything", Pokémon: "Gotta catch em all!"
@@ -29,13 +29,10 @@ Only needed if you are working on multiple versions of the document or making ma
 ---
 
 ## Game Overview (required of all games)
-This is intended as a cohesive paragraph or two that lets someone understand what you are working on. It must include:
+The whole game is meant to be a simple fighting game with only 2 moves, (apart from movement) similar to what divekick, and footsies attempts to recreate. But instead of teaching footsies, it will teach the fireball game. 
 
 ### Purpose of the Game
-Pedagogical objective(s) for educational games, training goal, or intended social impact. If it is addressing a problem, explain what that problem is (for example, students have a hard time …)
-
-### Intended Use
-How the game is to be inserted into a pedagogical scenario or how will it be used in training, therapy, rehabilitation, etc. You should distinguish between a game that is stand alone, a supplement to a class, or working with an instructor.
+The entire point of this game is to be a solid introduction to the more interesting mechanics of fighting games, that can only be built by intuition. Things like advantage vs disadvantage states, frame data, blocking vs parrying, etc. 
 
 ### Justification for the Use
 Is there research that shows that this is apt to be successful? Are there other games or applications that take a similar approach? If this is an experiment to see if it will work, why does the researcher believe that it might?
@@ -48,62 +45,47 @@ There's a significant difference in a game teaching biology to a kindergartener 
 ---
 
 ## Gameplay
-2 Options: 
-Either batting cage game, like the persona game, 
-OR 
-the arcade game where you pull back the bat and have to swing it. 
 
-Try both, see whats more fun. 
-There could be a possibility of clicking, while also holding diferent buttons, like being tired, maybe its a physical game. 
+
 ### Objectives
-What are the objectives of the game? Is it to reach a destination, retrieve the chalice, accrue the most money, or solve a puzzle in the fastest amount of time?
+The whole objective is to win 3 rounds against your opponent, to win the match. In order to win a round, you must lower your opponnets healthbar to zero, in order to do that, you must hit them with fireballs. 
 
 ### Game Progression and Play Flow
-How does the game flow for the game player? Is there an overall scoring and objective for the game or is it a progression of levels?
+The characters will start at mid screen, in neutral, then they will attempt to throw fireballs, parry, or jump in order to damage and trick the opponent. 
+
 
 ### Mission, Challenge or Puzzle Structure
 
 ---
 
 ## Mechanics (Key Section)
-These are topics that should be covered if relevant. All games are different and not everything applies. Consider this a checklist to help you capture all that is important. It should be complete enough that someone could build a clone of your game based on this detail.
+
 
 ### Rules
-Include both implicit and explicit rules.
+It will be best of 3 matches, with the players starting at middle screen. 
 
 ### Model of the Game Universe
-Think of it as a simulation of a world — how do all the pieces interact? If it is a puzzle game, there may be no universe to discuss, but there is the layout and the structure of the puzzle. Included in the universe are:
+2D, single platform arena, with walls on either side of the arena to prevent the players from going to far. 
 
 ### Physics
-How does the physical universe work? If there are no physics, do not try to create them.
+Simple Street fighter 6 type physics, where the jumps are weightu floaty, and the movement on the ground is tight. The fireballs will just move striaght with no physics applied. 
 
 ### Economy
-What is the economy of the game? How does it work? The economy includes the items that the player is trying to collect as well as a world economy. How does a player earn or lose these items?
+The only economy is the health, the one and only resoruce in the game. Players will attempt to keep their health, and drain the opponents. 
 
 ### Character Actions
 
 #### Character Movement
-How does the character move?
+The players will move with WASD, and Q for parry, and E for fireball for player 1  (Left Player). and PL";" "'" keys for movement, o for fireball, and [ for parry for player 2 (Right Player) 
 
-#### Objects
-How to pick them up and move them. Are there key objects of importance that should be identified here? Is there an inventory that the player maintains or are all interactions transitory?
-
-#### Actions
-What else can the player (or character) do? Include any in-game switches and buttons that are used, interacting with objects, and what means of communication are used.
 
 #### Combat
-If there is combat or even conflict, how is this specifically modeled? What are the differences in weapons?
+Combat can ONLY be done through fireball, or reflecting a fireball with the parry. 
 
-### Screen Flow
-How each screen is related to every other and a description of the purpose of each screen.
 
 ### Game Options
-What are the options and how do they affect game play?
+Potential character select screen. Could also allow for the "standard" game settings, like volume, screen resolution, quality ETC. 
 
-### Replaying and Saving
-
-### Cheats and Easter Eggs
-If there are any.
 
 ---
 
@@ -122,60 +104,39 @@ Explain how the progression of the plot is exposed to the player. Remember that 
 ---
 
 ## Game World
-Describe the general look and feel of the world. Of particular importance is whether the world is broken up into different areas that are relevant to the game. If it is, describe how they are connected, how the player moves between them, and how they relate to levels.
+The gameworld will be 
 
 ---
 
 ## Characters and Opponents
 
 ### Player Avatar
-Indicate if the user has the ability to define their own avatar and what options they are able to define.
+Each player will have their own character with a distinct visual look. 
 
 ### Character List
-Identify which characters are playable and which are not. If there are characters that are relevant to the game but never seen, be sure to include them. Include enemies and opponents. If the enemies are classes only, that is fine. Identify the class and if there is a specific number of them, etc.
+List Of Characters: 
+TO DO
 
-### Character Profiles
-For each character, give their backstory, personality, appearance, and abilities.
-
-### Character Relevance and Relationships
-Explain the relevance of each character to the story and their relationship to other characters. If certain characters only appear in certain levels or areas, explain that as well.
-
-### Character AI
-This is also the place to describe any AI that is used for these characters.
 
 ---
 
 ## Levels
 
-### General Level Structure
-General description of how levels are used. If they are very similar, the detailed level descriptions need not be very long.
-
-### Skills and Content Per Level
-For each level, describe what additional skills or information they are learning.
-
-### Level Synopsis and Objectives
-For each level, give a synopsis of the level and the objectives of that level. If there is introductory material that is required, how is it provided? There are two key aspects to cover in each level: the game play changes and the content changes. In some cases, both change; in other cases, only one does. For example, as levels progress, you may give the player less hints so that they learn the content better and you may increase the frequency of enemies.
 
 ### Level Maps
-For each level, describe how the map changes and whether it is a crafted or procedurally generated map. If it is procedurally generated, what are the constraints or requirements placed on it?
+The levels will be purely visual for now, just having different backgrounds and msuic. 
 
 ### Training Level
-Is there a training level or a playable tutorial?
+there will be a tutorial on which buttons mean what, and taking the player through a parry and fireball trainign session. 
 
-### Progress Assessment
-How is the player's progress assessed at the end of the level?
 
-### Replaying and Unlocking Levels
-Are they allowed to replay levels? Does progression through the levels require a specific level of accomplishment (that is, are subsequent levels being unlocked)?
 
 ---
 
 ## User Interface
 
 ### Visual System
-- If there is a HUD, what is on it, how is it displayed, and how is it accessed?
-- What menus are included and how are they navigated?
-- What is the camera model?
+The visual hud will contain 3 major things, the top of the screen will be dominated by the healthbars, that drain inwards, with a timer in the center, counting down from 99. Then on each players side, they can have a super gague. T
 
 ### Control System
 How does the game player control the game? What are the specific commands?
@@ -183,7 +144,7 @@ How does the game player control the game? What are the specific commands?
 ### Audio, Music, and Sound Effects
 
 ### Game Art
-Intended style.
+The intended style is incredibly simple, maybe having pixel like graphics, to allow it to get created easily. and to evoke simplicity from the player. 
 
 ### Help System
 

@@ -11,8 +11,7 @@ You do not need to include all topics and you do not need to use the numbered ou
 ## Title Page (page and all elements are required)
 
 ### Game Name
-This is more important than you think even in a non-commercial environment. It sets the tone for the game's use and gives it an identity.
-
+The Game Of The Meaning Of Life
 ### Tag Line
 A tag line is a statement or phrase that brands your game. Famous tag lines are "Just do it!", "Got milk?", "The King of Beers". Or from the video game world: Dark Souls: "Prepare to Die", Dead Space: "Only the Dead Survive", Deus Ex: "Trust no one. Question Everything", Pokémon: "Gotta catch em all!"
 
@@ -32,27 +31,22 @@ Only needed if you are working on multiple versions of the document or making ma
 This is intended as a cohesive paragraph or two that lets someone understand what you are working on. It must include:
 
 ### Purpose of the Game
-Pedagogical objective(s) for educational games, training goal, or intended social impact. If it is addressing a problem, explain what that problem is (for example, students have a hard time …)
+The message of the game is to help explore the meaning of life and I mean help cope with some meaning coming after death. The captian will be the main character that explores this, he will die in one of the early cutscenes but his legacy will live on. . 
 
-### Intended Use
-How the game is to be inserted into a pedagogical scenario or how will it be used in training, therapy, rehabilitation, etc. You should distinguish between a game that is stand alone, a supplement to a class, or working with an instructor.
-
-### Justification for the Use
-Is there research that shows that this is apt to be successful? Are there other games or applications that take a similar approach? If this is an experiment to see if it will work, why does the researcher believe that it might?
 
 ### Target Audience
-There's a significant difference in a game teaching biology to a kindergartener or to a college student.
+Its me, I love this game, there is no other reason for me to make it other than I love it and its helping me cope with Roma's death. 
 
 ### Genre(s)
 
+- Puzzle, Story, Sci-Fi 
 ---
 
 ## Gameplay
 The gameplay loop will start the player in the space ship, in which they are presented with a random grid of the game of life, representing the space ship's population. They can then take actions to change the game state, buying upgrades, changing the grid by changing specific cells, or eventually contunie by going to the next iteration. 
 
 ### Objectives
-The goal is to make it to the highest iteration/generation count, with a side objective of generating as much resource as possible, as the resoruce will be used for buying permenant upgrades in the future. 
-
+The goal is to make it to the "end" of the story. with the 5 cutscenes, in order to see what the meaning of life truely is. There can also be a survival mode with the goal of getting as far as possible. 
 
 ### Mission, Challenge or Puzzle Structure
 
@@ -61,8 +55,6 @@ The goal is to make it to the highest iteration/generation count, with a side ob
 ## Mechanics (Key Section)
 These are topics that should be covered if relevant. All games are different and not everything applies. Consider this a checklist to help you capture all that is important. It should be complete enough that someone could build a clone of your game based on this detail.
 
-### Rules
-Include both implicit and explicit rules.
 
 ### Model of the Game Universe
 Think of it as a simulation of a world — how do all the pieces interact? If it is a puzzle game, there may be no universe to discuss, but there is the layout and the structure of the puzzle. Included in the universe are:
@@ -70,21 +62,51 @@ Think of it as a simulation of a world — how do all the pieces interact? If it
 
 ### Economy
 2 Resoures the player will use, money, and resource 1. Money will be used to affect the state of the game within the gameplay loop. the resource 1 will be used to affect the initial starting point of the game, and carries throughout the gameplay loop iterations. 
-
+- The idea of morale is interesting, it fits with the theme of the population surviving, but it might be for later. 
 
 ### Character Actions
 
-#### Character Movement
-How does the character move?
 
 #### Objects
 ##### Classes: 
 
-Alive: As In Conways Game Of Life
-
+Alive: As In Conways Game Of Life Each alive cell that stays alive generates 1 money. 
 Dead: As in Conways Game Of Life
-
 Zombie: If > 3 alive neighbours, or < 1 neighbour, turns dead, else stays a zombie and turns the rest of the surrounding alives into zombies. 
+Mechanic: required >1 surrouinding alive cell, produces 1 addtiional 10 money per round. 
+Chef: makes the surrounding alive not starve to death from overpopulation or underpopulation. But costs 25 gold per round to employ.
+
+Only gotten through the pet store event. 
+Sandshark - IMPLEMENT
+Plorbian - IMPLEMENT
+Dog - IMPLEMENT
+
+Springtrap: If an alive cell is around it, it will kill it, turning it into a corpse. 
+Life: Turns all surrounding cells into life, only occurs at the very end of the game. 
+Wall: Lierally just seperates rooms. 
+Zealot: I forgot what this one does. 
+
+TO Implement: 
+- Bartender, 
+- Some machinery, maybe a generator of some sort, maybe a fabricator that creates things. 
+- Radar scanner. 
+
+#### Random Events: 
+
+Zombie Invation - Spawns like 5 zombies randomly. 
+Springtrap Appears - Spawns a springtrap randomly 
+Pet Shop - Be able to pay for the 3 exotic pet options. 
+
+Finding Life - win the game. 
+
+To Implement: 
+- Something about a warp gate. 
+- Astroid Belt, random people dying. 
+- Ecological Dead Zone, (turn off shader in the back, and reduce the amount of people alive.)
+- Religious Reform
+- Spaceship Upgrade Bay. 
+- Spaceship Attack from outside sources. 
+    - Create a little mini game that you defend it, if you get hit, it will kill a bunch of random alive cells. 
 
 #### Actions
 
@@ -93,6 +115,7 @@ Change any cell to the classes the player has unlocked (Usually for a price), Pu
 
 Upgrades: The possible list of upgrades that can be made by the player are: 
 Increased Grid Size. 
+Additional Ships
 
 
 
@@ -105,90 +128,76 @@ Start from main menu, then to main game, then to death screen, or main menu to u
 
 
 ### Replaying and Saving
-The player will be unable to save their in game play, but they will be able to save their upgrades and resources outside of the game. 
+The player is able to save and load from the save file, located in. This saves the current upgrades (non ingame upgrades), and the current resource amount C:\Users\##\AppData\Roaming\Godot\app_userdata\Game Of Life Rip Off
+
+Each new upgrade MUST be added into the saving and loading functionality. Make sure the ID is unique, and the chosen upgrades dictionary has the correct keys. 
+
 
 ### Cheats and Easter Eggs
-If there are any.
+[ give 500 resource 
+] give 500 money. 
 
 ---
 
 ## Story and Narrative
-If you have a puzzle game, there is probably no backstory or story. As soon as you add an avatar of any sort, you have a story. It may be as simple as who the character is.
+The overall story is about a planet exploding and therefore the surviving population is living on a spaceship. 
 
 ### Backstory
-If there is no plot or narrative in the story but you need to understand the background, that is a backstory. The backstory can also be setting the stage for the story that is going to unfold.
+The backstory is the planet Earth, it used to have inhabitents who lived nicely on the planet, but they searched for soemthing greater. Learning about why they lived there, and how they managed to be born. 
 
 ### Plot Elements
-There are multiple patterns of a plot: the 3-act play, the hero's journey, episodic, … Use one of the models to describe the story of the game.
+The story is the people of this spaceship learning the meaning of life. They live and die with the hopes of finding the meaning of life, and eventually their ancestor do find it. 
 
 ### Game Story Progression
+Each of the cutscenes are the way the plot develops. They need to survive more iterations than the previous runs in order to progress the story. Insentive to get higher and higher scores. The information is given by a omnipresent narrator. 
+
+Cutscene 0: Show the people leaving for the first time, like them suiting up to take on outerspace in hopes of a secret mission. 
+
+Cutscene 1: Maybe learn more about who managed the events of the trip. Show the captain of the ship at the construction site of the ship.
+
+Cutscene 2: Learn about the early years of the ship. The captain growing old and dying, but still keeping a secret why he wanted to start this one. 
+
+Cutscene 3: Show many many geneartions passing. 
+
+Cutscene 4: Show the "outer wilds eye". The key to learning the meaning of life somewhere beyond the edge of the universe. and they are about to cross that edge. 
+
+Cutscene 5: Learn the meaning of life, I want it to look like the beyond the quiet. Show what the meaning of life is. 
+
+
 Explain how the progression of the plot is exposed to the player. Remember that there are different approaches to the narrative: how it is exposed, who is telling it, and the sequence that things happen. If you are using cut scenes to progress the story, describe the cut scenes in detail.
 
 ---
 
 ## Game World
-Describe the general look and feel of the world. Of particular importance is whether the world is broken up into different areas that are relevant to the game. If it is, describe how they are connected, how the player moves between them, and how they relate to levels.
+Generally, the look of the game is a sci-fi world. There is interstellar travel, there are laser guns, regular sci-fi asestetic. Rimworld type setting. There are random events that make space more dangerous, but most of them are going to be silly. 
+The player sees the universe only through the cutscenes, the ship and the random events that occur. Its a very "cartoony" sci-fi world. 
 
 ---
 
 ## Characters and Opponents
 
-### Player Avatar
-Indicate if the user has the ability to define their own avatar and what options they are able to define.
 
 ### Character List
-Identify which characters are playable and which are not. If there are characters that are relevant to the game but never seen, be sure to include them. Include enemies and opponents. If the enemies are classes only, that is fine. Identify the class and if there is a specific number of them, etc.
-
-### Character Profiles
-For each character, give their backstory, personality, appearance, and abilities.
-
-### Character Relevance and Relationships
-Explain the relevance of each character to the story and their relationship to other characters. If certain characters only appear in certain levels or areas, explain that as well.
-
-### Character AI
-This is also the place to describe any AI that is used for these characters.
-
----
-
-## Levels
-
-### General Level Structure
-General description of how levels are used. If they are very similar, the detailed level descriptions need not be very long.
-
-### Skills and Content Per Level
-For each level, describe what additional skills or information they are learning.
-
-### Level Synopsis and Objectives
-For each level, give a synopsis of the level and the objectives of that level. If there is introductory material that is required, how is it provided? There are two key aspects to cover in each level: the game play changes and the content changes. In some cases, both change; in other cases, only one does. For example, as levels progress, you may give the player less hints so that they learn the content better and you may increase the frequency of enemies.
-
-### Level Maps
-For each level, describe how the map changes and whether it is a crafted or procedurally generated map. If it is procedurally generated, what are the constraints or requirements placed on it?
-
-### Training Level
-Is there a training level or a playable tutorial?
-
-### Progress Assessment
-How is the player's progress assessed at the end of the level?
-
-### Replaying and Unlocking Levels
-Are they allowed to replay levels? Does progression through the levels require a specific level of accomplishment (that is, are subsequent levels being unlocked)?
+Captain 1 
+Captain Cup, - The one that goes into the edge of the universe
+Captain ???? - The one that finds the meaning of the universe. 
 
 ---
 
 ## User Interface
 
 ### Visual System
-- If there is a HUD, what is on it, how is it displayed, and how is it accessed?
-- What menus are included and how are they navigated?
-- What is the camera model?
+- Main screen, 1/2 of the game is the cell sheet. The other 1/2 is the UI menu, 
+
 
 ### Control System
-How does the game player control the game? What are the specific commands?
+The entire game is played with the mouse, all through clickable buttons, and through menus to click. no typing required. 
 
 ### Audio, Music, and Sound Effects
 
 ### Game Art
-The game will be intentionally simplistic, to emulate the enviroment in which the game of life was mostly used. In early computing. It will intentionally rely on the nostalgia of early 2000s computer graphics. 
+The game will be intentionally simplistic, to emulate the enviroment in which the game of life was mostly used. In early computing. It will intentionally rely on the nostalgia of early 2000s computer graphics. Another art style like the dwarf fortress. 
+Pixel art will be used in most places, I should use a consistent pixel resolution, currently everyhting is kinda all over the place. I want to refine this most of all. 
 
 ### Help System
 
@@ -215,7 +224,7 @@ What information is being collected for the administrator? How can they access i
 ## Deployment
 Describe everything that a person will need to run the game.
 
-- Where is it deployed?
+- Where is it deployed? - Desktop Windows application. 
 - How can they recreate it?
 - What information is needed to get it started? Do not, however, include any passwords in this document!
 - What systems are required to run the game?

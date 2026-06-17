@@ -48,13 +48,8 @@ There's a significant difference in a game teaching biology to a kindergartener 
 ---
 
 ## Gameplay
-2 Options: 
-Either batting cage game, like the persona game, 
-OR 
-the arcade game where you pull back the bat and have to swing it. 
+This section would tell a player what to expect. Not a lot of detail (that comes later).
 
-Try both, see whats more fun. 
-There could be a possibility of clicking, while also holding diferent buttons, like being tired, maybe its a physical game. 
 ### Objectives
 What are the objectives of the game? Is it to reach a destination, retrieve the chalice, accrue the most money, or solve a puzzle in the fastest amount of time?
 

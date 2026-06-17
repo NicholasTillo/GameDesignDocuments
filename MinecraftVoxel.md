@@ -32,180 +32,127 @@ Only needed if you are working on multiple versions of the document or making ma
 This is intended as a cohesive paragraph or two that lets someone understand what you are working on. It must include:
 
 ### Purpose of the Game
-Pedagogical objective(s) for educational games, training goal, or intended social impact. If it is addressing a problem, explain what that problem is (for example, students have a hard time …)
+The purpose of the game is to give the player a space to do something as they focus on a conversation. It is meant to be a visual, and a physical fidget toy. They are supposed to be able to launch and close this game quick, as they start a deep conversation, and then end said conversation. 
 
-### Intended Use
-How the game is to be inserted into a pedagogical scenario or how will it be used in training, therapy, rehabilitation, etc. You should distinguish between a game that is stand alone, a supplement to a class, or working with an instructor.
 
 ### Justification for the Use
-Is there research that shows that this is apt to be successful? Are there other games or applications that take a similar approach? If this is an experiment to see if it will work, why does the researcher believe that it might?
+Me, This is what I found myself, (and others, I saw it in instagram posts with >50 comments saying they do the same) jumping on chests in minecraft when the conversation got good. 
 
-### Target Audience
-There's a significant difference in a game teaching biology to a kindergartener or to a college student.
+
 
 ### Genre(s)
 
 ---
 
 ## Gameplay
-This section would tell a player what to expect. Not a lot of detail (that comes later).
+The enitre point of this game is to give a space for players to parkour around, as they have conversations in discord. My favoutire times in minecraft are just talking about stupid stuff jumping around the base on chests. So that is the whole gameplay. Fun movement, aestetic area, and conversations. This is a single player game, the voice chat is all handled through discord and not inside the game itself. 
+
+
 
 ### Objectives
-What are the objectives of the game? Is it to reach a destination, retrieve the chalice, accrue the most money, or solve a puzzle in the fastest amount of time?
+There are no objectives, at all. Its just to build a relaxing enviroment for you to mess around in. 
+
 
 ### Game Progression and Play Flow
-How does the game flow for the game player? Is there an overall scoring and objective for the game or is it a progression of levels?
+The game flow will be the player will launch and immedietly be put into a randomly generated enviroment. From here they can affect it, to be how they want, with custom shaders and stuff. 
 
 ### Mission, Challenge or Puzzle Structure
 
 ---
 
 ## Mechanics (Key Section)
-These are topics that should be covered if relevant. All games are different and not everything applies. Consider this a checklist to help you capture all that is important. It should be complete enough that someone could build a clone of your game based on this detail.
+The player will be able to move between a building mode, and a movement mode,  
 
 ### Rules
-Include both implicit and explicit rules.
 
-### Model of the Game Universe
-Think of it as a simulation of a world — how do all the pieces interact? If it is a puzzle game, there may be no universe to discuss, but there is the layout and the structure of the puzzle. Included in the universe are:
 
 ### Physics
-How does the physical universe work? If there are no physics, do not try to create them.
+It is going to be simple minecraft-like physcis, where the blocks do not fall (unless otherwise specifed) the player will move as a earth-like movement with gravity, and inertia simulations. The one exception is sand, which falls when there is nothing under it, thats just a placeholder for now in case I want to add more falling blocks later. 
 
-### Economy
-What is the economy of the game? How does it work? The economy includes the items that the player is trying to collect as well as a world economy. How does a player earn or lose these items?
 
 ### Character Actions
 
 #### Character Movement
-How does the character move?
+This is going to be a main part of the game, the movement should be simple wasd, space to jump movement, it must be fluid and responsive, it must be satisfying to move. 
+
 
 #### Objects
-How to pick them up and move them. Are there key objects of importance that should be identified here? Is there an inventory that the player maintains or are all interactions transitory?
+The player will have an inventory, however nothing is limited, so they are able to place as much of the blocks that they want down. 
+The list of blocks will be: 
+- Dirt 
+- Stone Blocks
+- Grass Blocks, 
+- Wood Blocks. 
+- Sand (this one falls when there is nothing under it)
 
 #### Actions
-What else can the player (or character) do? Include any in-game switches and buttons that are used, interacting with objects, and what means of communication are used.
-
-#### Combat
-If there is combat or even conflict, how is this specifically modeled? What are the differences in weapons?
-
-### Screen Flow
-How each screen is related to every other and a description of the purpose of each screen.
+The player will be able to place new blocks. And go into a "survival" mode where they dont place new blocks, but they just explore the enviroment that they created. 
 
 ### Game Options
-What are the options and how do they affect game play?
+Change and affect the enviroment by a full options menu that includes a large amount of features like, sky colour, biome, fog level and block configurations, like choosing the perlin noise area thats chosen. There will also be sliders for the different "vibes" of the world, so the player could turn up the "cozy" scale and we would swap a shader on the backend to match it. If they want, they can also choose from a selection of premade worlds, there will be 5 of them to pick from and swap between, being dungeon, clifftop, forest, cityscape, and crystal cave. 
+
 
 ### Replaying and Saving
-
+Players can save their world to their disk, these worlds can then be relaunched to jump around again. The save will keep both the blocks they placed or broke, and the shaders and options they had on, so the world comes back exactly how they left it. 
 ### Cheats and Easter Eggs
-If there are any.
+Easter eggs will be added into some of the premade worlds, just for my personal enjoyment. 
 
 ---
 
 ## Story and Narrative
-If you have a puzzle game, there is probably no backstory or story. As soon as you add an avatar of any sort, you have a story. It may be as simple as who the character is.
+No real backstory or story at all, its just a block world to jump around in. Maybe make some easter eggs if possible. 
 
-### Backstory
-If there is no plot or narrative in the story but you need to understand the background, that is a backstory. The backstory can also be setting the stage for the story that is going to unfold.
 
-### Plot Elements
-There are multiple patterns of a plot: the 3-act play, the hero's journey, episodic, … Use one of the models to describe the story of the game.
-
-### Game Story Progression
-Explain how the progression of the plot is exposed to the player. Remember that there are different approaches to the narrative: how it is exposed, who is telling it, and the sequence that things happen. If you are using cut scenes to progress the story, describe the cut scenes in detail.
 
 ---
 
 ## Game World
-Describe the general look and feel of the world. Of particular importance is whether the world is broken up into different areas that are relevant to the game. If it is, describe how they are connected, how the player moves between them, and how they relate to levels.
+The overall game world will be a "nostalgic" "soft" "dream like" "warm" "bright" "cozy", block based world. The player will make the game world to their desire, but it will always be those key words. The world is a finite bounded area, but it will be big enough that the player would never realisticially meet the end of it. 
 
 ---
 
 ## Characters and Opponents
 
 ### Player Avatar
-Indicate if the user has the ability to define their own avatar and what options they are able to define.
-
-### Character List
-Identify which characters are playable and which are not. If there are characters that are relevant to the game but never seen, be sure to include them. Include enemies and opponents. If the enemies are classes only, that is fine. Identify the class and if there is a specific number of them, etc.
-
-### Character Profiles
-For each character, give their backstory, personality, appearance, and abilities.
-
-### Character Relevance and Relationships
-Explain the relevance of each character to the story and their relationship to other characters. If certain characters only appear in certain levels or areas, explain that as well.
-
-### Character AI
-This is also the place to describe any AI that is used for these characters.
-
----
-
-## Levels
-
-### General Level Structure
-General description of how levels are used. If they are very similar, the detailed level descriptions need not be very long.
-
-### Skills and Content Per Level
-For each level, describe what additional skills or information they are learning.
-
-### Level Synopsis and Objectives
-For each level, give a synopsis of the level and the objectives of that level. If there is introductory material that is required, how is it provided? There are two key aspects to cover in each level: the game play changes and the content changes. In some cases, both change; in other cases, only one does. For example, as levels progress, you may give the player less hints so that they learn the content better and you may increase the frequency of enemies.
-
-### Level Maps
-For each level, describe how the map changes and whether it is a crafted or procedurally generated map. If it is procedurally generated, what are the constraints or requirements placed on it?
-
-### Training Level
-Is there a training level or a playable tutorial?
-
-### Progress Assessment
-How is the player's progress assessed at the end of the level?
-
-### Replaying and Unlocking Levels
-Are they allowed to replay levels? Does progression through the levels require a specific level of accomplishment (that is, are subsequent levels being unlocked)?
+Literally the most neutral character possible. to have the player be able to self insert, no matter what they look like. 
 
 ---
 
 ## User Interface
 
 ### Visual System
-- If there is a HUD, what is on it, how is it displayed, and how is it accessed?
-- What menus are included and how are they navigated?
-- What is the camera model?
+- When in building mode, they will have their inventory, it will be a hotbar, just like minecraft, unless there is a more efficient way to build. 
+- When in parkour mode, there will be little to no hud, except for a single light source, probably a lantern, and a hand that they can see in front of them.
 
 ### Control System
-How does the game player control the game? What are the specific commands?
+WASD - Movement
+Space - Jump. 
+The movement will have a strafe system, like in the source engine, used in counterstrike and garry's mod. 
 
 ### Audio, Music, and Sound Effects
+Music will be intentially cozy, with a single playlist of around 10 songs that will be shuffled through, playing randomly throughout the players experiance in the game. With periods of silence inbetween. 
+There will be sound effects for landing, walking, and jumping off each block type, to increase immersion. 
+
+
 
 ### Game Art
-Intended style.
+See the game world for intended style 
 
 ### Help System
 
-### Settings
-What can the user change?
 
 ---
 
 ## Content Additions
 How can the administrator add new content to the game? The information on the Functional Specification and Software Design Document pages may be useful in thinking about this non-game part of the project.
 
----
-
-## Feedback for the Player
-How can the player tell if they are doing well? Are there mechanisms to tell them what they are doing wrong?
-
----
-
-## Data Collection for the Administrator
-What information is being collected for the administrator? How can they access it?
 
 ---
 
 ## Deployment
 Describe everything that a person will need to run the game.
 
-- Where is it deployed?
+- Deployment will be decided after the game is developed, but for now we are just assuming a windows desktop build. 
 - How can they recreate it?
 - What information is needed to get it started? Do not, however, include any passwords in this document!
 - What systems are required to run the game?
@@ -217,6 +164,10 @@ Describe everything that a person will need to run the game.
 ## Development
 What does a developer need to know in order to continue development on the game? The information on the Software Design Document pages may be useful in thinking about what needs to be captured.
 
-- What platform is it built on, including versions? Be sure to include all dependencies.
-- Where are the source code and assets to be found? This should be in a publicly available repository.
+- This will be developed in Godot, 4.6 build. , specifically on the v4.6.stable.double.custom_build [89cea1439] build created by Zylann, found in this github repository. 
+https://github.com/Zylann/godot_voxel
+Refer to this github for all documentation and coding pracices. 
+
+
+- All changes of the repository will be in my personal repository on NicholasTillo's github. 
 - What are the key elements of the game? This will differ considerably based on the platform. Where can a developer find details on the game structure? The details need not be included in this document — a reference is fine. Wherever the documentation is, however, it needs to be sufficient for them to find their way around the code and to understand what the different elements are. Be especially careful to identify the key problems that you encountered and solved. These are likely to be subtle points that the next developers will encounter as well.
