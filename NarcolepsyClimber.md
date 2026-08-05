@@ -1,60 +1,50 @@
-# Serious Game Design Document Outline
-
-A game design document is the blueprint from which a game is to be built. As such, every single detail necessary to build the game should be addressed. The larger the team and the longer the design and development cycle, the more critical is the need. For your purpose, the intent is to capture as much as possible of your design. I want you to think big…bigger than what you are able to develop. I also want you to be clear about what the software delivers and what the design entails. Use this document to define the ultimate game, but be clear about what you have delivered.
-
-This document also includes elements that are normally considered part of a software design document but are included to give a more complete picture of the game.
-
-You do not need to include all topics and you do not need to use the numbered outline structure for your document, but as a team you should review all items to be sure that you have considered all of these elements and why they are or are not relevant to your game. It should also be easy for me to identify the topic that you are covering.
+# Narcolepsy Climber
 
 ---
 
 ## Title Page (page and all elements are required)
 
 ### Game Name
-This is more important than you think even in a non-commercial environment. It sets the tone for the game's use and gives it an identity.
+Narcolepsy Climber
 
 ### Tag Line
 A tag line is a statement or phrase that brands your game. Famous tag lines are "Just do it!", "Got milk?", "The King of Beers". Or from the video game world: Dark Souls: "Prepare to Die", Dead Space: "Only the Dead Survive", Deus Ex: "Trust no one. Question Everything", Pokémon: "Gotta catch em all!"
 
 ### Team
-Names and roles. Remember that your client is part of the team.
+Me
 
 ### Date of Last Update
-
+NA
 ---
 
 ## Revision History
-Only needed if you are working on multiple versions of the document or making major changes to the game. Probably not needed for most games in this class. However if I review a version that then significantly changes, include the history.
+NA
 
 ---
 
-## Game Overview (required of all games)
-This is intended as a cohesive paragraph or two that lets someone understand what you are working on. It must include:
+## Game Overview 
 
 ### Purpose of the Game
-Pedagogical objective(s) for educational games, training goal, or intended social impact. If it is addressing a problem, explain what that problem is (for example, students have a hard time …)
-
-### Intended Use
-How the game is to be inserted into a pedagogical scenario or how will it be used in training, therapy, rehabilitation, etc. You should distinguish between a game that is stand alone, a supplement to a class, or working with an instructor.
+Give a realistic and fun depiction of narcolpsy. 
 
 ### Justification for the Use
 Is there research that shows that this is apt to be successful? Are there other games or applications that take a similar approach? If this is an experiment to see if it will work, why does the researcher believe that it might?
 
 ### Target Audience
-There's a significant difference in a game teaching biology to a kindergartener or to a college student.
+Fans of peaks of yore and rage games like getting over it.
 
 ### Genre(s)
 
 ---
 
 ## Gameplay
-This section would tell a player what to expect. Not a lot of detail (that comes later).
+Climb in a 3D enviroment with the restriction of narcolpsy, so you constantly have to fix yourself in place with spikes and rope to not fall down the clip. 
 
 ### Objectives
-What are the objectives of the game? Is it to reach a destination, retrieve the chalice, accrue the most money, or solve a puzzle in the fastest amount of time?
+Reach the top of the current climb. 
 
 ### Game Progression and Play Flow
-How does the game flow for the game player? Is there an overall scoring and objective for the game or is it a progression of levels?
+Climb the current mountain, then move onto the next. 
 
 ### Mission, Challenge or Puzzle Structure
 
@@ -64,38 +54,35 @@ How does the game flow for the game player? Is there an overall scoring and obje
 These are topics that should be covered if relevant. All games are different and not everything applies. Consider this a checklist to help you capture all that is important. It should be complete enough that someone could build a clone of your game based on this detail.
 
 ### Rules
-Include both implicit and explicit rules.
+
 
 ### Model of the Game Universe
 Think of it as a simulation of a world — how do all the pieces interact? If it is a puzzle game, there may be no universe to discuss, but there is the layout and the structure of the puzzle. Included in the universe are:
 
 ### Physics
-How does the physical universe work? If there are no physics, do not try to create them.
-
-### Economy
-What is the economy of the game? How does it work? The economy includes the items that the player is trying to collect as well as a world economy. How does a player earn or lose these items?
+The  physics will be very realistic, everything should be able to move, there will be rope physics, 
 
 ### Character Actions
 
 #### Character Movement
-How does the character move?
+Character movement will be normal WASD movement, with a jump. There will be a stamina bar, that determines the characters ability to climb and take "hard" actions. 
 
 #### Objects
-How to pick them up and move them. Are there key objects of importance that should be identified here? Is there an inventory that the player maintains or are all interactions transitory?
+- Pyton and Rope and Hammer 
+- Camp Gear - Allowing player to skip a night? 
 
 #### Actions
 What else can the player (or character) do? Include any in-game switches and buttons that are used, interacting with objects, and what means of communication are used.
 
 #### Combat
-If there is combat or even conflict, how is this specifically modeled? What are the differences in weapons?
+If there is combat, the player will be avoiding more than anything else, there could be bats or something that target the player. 
 
-### Screen Flow
-How each screen is related to every other and a description of the purpose of each screen.
 
 ### Game Options
 What are the options and how do they affect game play?
 
 ### Replaying and Saving
+Can only replay and save the currently unlocked levels, cant save within each level. 
 
 ### Cheats and Easter Eggs
 If there are any.
@@ -124,7 +111,7 @@ Describe the general look and feel of the world. Of particular importance is whe
 ## Characters and Opponents
 
 ### Player Avatar
-Indicate if the user has the ability to define their own avatar and what options they are able to define.
+Main character, 
 
 ### Character List
 Identify which characters are playable and which are not. If there are characters that are relevant to the game but never seen, be sure to include them. Include enemies and opponents. If the enemies are classes only, that is fine. Identify the class and if there is a specific number of them, etc.
@@ -143,7 +130,8 @@ This is also the place to describe any AI that is used for these characters.
 ## Levels
 
 ### General Level Structure
-General description of how levels are used. If they are very similar, the detailed level descriptions need not be very long.
+Each level will have a starting area, a climbing section, and a final destination/peak. 
+The climbing section will be borken down into many sections, resting sections where the player can safely fall asleep. Danger areas that require stamina to get past. 
 
 ### Skills and Content Per Level
 For each level, describe what additional skills or information they are learning.

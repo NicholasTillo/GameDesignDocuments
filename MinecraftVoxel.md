@@ -1,20 +1,14 @@
-# Serious Game Design Document Outline
-
-A game design document is the blueprint from which a game is to be built. As such, every single detail necessary to build the game should be addressed. The larger the team and the longer the design and development cycle, the more critical is the need. For your purpose, the intent is to capture as much as possible of your design. I want you to think big…bigger than what you are able to develop. I also want you to be clear about what the software delivers and what the design entails. Use this document to define the ultimate game, but be clear about what you have delivered.
-
-This document also includes elements that are normally considered part of a software design document but are included to give a more complete picture of the game.
-
-You do not need to include all topics and you do not need to use the numbered outline structure for your document, but as a team you should review all items to be sure that you have considered all of these elements and why they are or are not relevant to your game. It should also be easy for me to identify the topic that you are covering.
+# Voxel Dream Game
 
 ---
 
-## Title Page (page and all elements are required)
+## Title Page
 
 ### Game Name
-This is more important than you think even in a non-commercial environment. It sets the tone for the game's use and gives it an identity.
+Voxel Dream Game
 
 ### Tag Line
-A tag line is a statement or phrase that brands your game. Famous tag lines are "Just do it!", "Got milk?", "The King of Beers". Or from the video game world: Dark Souls: "Prepare to Die", Dead Space: "Only the Dead Survive", Deus Ex: "Trust no one. Question Everything", Pokémon: "Gotta catch em all!"
+
 
 ### Team
 Names and roles. Remember that your client is part of the team.
@@ -28,8 +22,8 @@ Only needed if you are working on multiple versions of the document or making ma
 
 ---
 
-## Game Overview (required of all games)
-This is intended as a cohesive paragraph or two that lets someone understand what you are working on. It must include:
+## Game Overview 
+This game will be a visual interactive "background" game where the player has something else to focus on, but they want something visually appealing. The game will be voxel based, like minecraft and have a very "dream" like aestetic, similar to lucid blocks. 
 
 ### Purpose of the Game
 The purpose of the game is to give the player a space to do something as they focus on a conversation. It is meant to be a visual, and a physical fidget toy. They are supposed to be able to launch and close this game quick, as they start a deep conversation, and then end said conversation. 
@@ -37,8 +31,6 @@ The purpose of the game is to give the player a space to do something as they fo
 
 ### Justification for the Use
 Me, This is what I found myself, (and others, I saw it in instagram posts with >50 comments saying they do the same) jumping on chests in minecraft when the conversation got good. 
-
-
 
 ### Genre(s)
 
@@ -61,7 +53,7 @@ The game flow will be the player will launch and immedietly be put into a random
 ---
 
 ## Mechanics (Key Section)
-The player will be able to move between a building mode, and a movement mode,  
+The player will be able to move between a building mode, and a movement mode.
 
 ### Rules
 

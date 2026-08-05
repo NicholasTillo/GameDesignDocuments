@@ -2,11 +2,12 @@
 
 ---
 
+## Title Page (page and all elements are required)
+
 ### Game Name
 The Game Of The Meaning Of Life
-
 ### Tag Line
-The eternal quest for meaning
+A tag line is a statement or phrase that brands your game. Famous tag lines are "Just do it!", "Got milk?", "The King of Beers". Or from the video game world: Dark Souls: "Prepare to Die", Dead Space: "Only the Dead Survive", Deus Ex: "Trust no one. Question Everything", Pokémon: "Gotta catch em all!"
 
 ### Team
 Nicholas Tillo
@@ -16,7 +17,7 @@ Nicholas Tillo
 ---
 
 ## Revision History
-
+Only needed if you are working on multiple versions of the document or making major changes to the game. Probably not needed for most games in this class. However if I review a version that then significantly changes, include the history.
 
 ---
 
@@ -24,7 +25,7 @@ Nicholas Tillo
 This is intended as a cohesive paragraph or two that lets someone understand what you are working on. It must include:
 
 ### Purpose of the Game
-The message of the game is to help explore the meaning of life and I mean help cope with some meaning coming after death. The captian will be the main character that explores this, he will die in one of the early cutscenes but his legacy will live on. 
+The message of the game is to help explore the meaning of life and I mean help cope with some meaning coming after death. The captian will be the main character that explores this, he will die in one of the early cutscenes but his legacy will live on. . 
 
 
 ### Target Audience
@@ -45,10 +46,12 @@ The goal is to make it to the "end" of the story. with the 5 cutscenes, in order
 
 ---
 
-## Mechanics 
+## Mechanics (Key Section)
+These are topics that should be covered if relevant. All games are different and not everything applies. Consider this a checklist to help you capture all that is important. It should be complete enough that someone could build a clone of your game based on this detail.
+
 
 ### Model of the Game Universe
-The game universe is this games universe, a large empty universe with planets over the place. But the technology is advanced like the wall-e ship. 
+Think of it as a simulation of a world — how do all the pieces interact? If it is a puzzle game, there may be no universe to discuss, but there is the layout and the structure of the puzzle. Included in the universe are:
 
 
 ### Economy
@@ -180,16 +183,25 @@ Captain ???? - The one that finds the meaning of the universe.
 ### Visual System
 - Main screen, 1/2 of the game is the cell sheet. The other 1/2 is the UI menu, 
 
+
 ### Control System
 The entire game is played with the mouse, all through clickable buttons, and through menus to click. no typing required. 
 
+### Audio, Music, and Sound Effects
+
 ### Game Art
-The game will be intentionally simplistic, to emulate the enviroment in which the game of life was mostly used. In early computing. It will intentionally rely on the nostalgia of early 2000s computer graphics. Another art style like the dwarf fortress. Pixel art will be used in most places, I should use a consistent pixel resolution, currently everyhting is kinda all over the place. I want to refine this most of all. 
+The game will be intentionally simplistic, to emulate the enviroment in which the game of life was mostly used. In early computing. It will intentionally rely on the nostalgia of early 2000s computer graphics. Another art style like the dwarf fortress. 
+Pixel art will be used in most places, I should use a consistent pixel resolution, currently everyhting is kinda all over the place. I want to refine this most of all. 
 
 ### Help System
 
 ### Settings
 What can the user change?
+
+---
+
+## Content Additions
+How can the administrator add new content to the game? The information on the Functional Specification and Software Design Document pages may be useful in thinking about this non-game part of the project.
 
 ---
 
@@ -204,6 +216,8 @@ What information is being collected for the administrator? How can they access i
 ---
 
 ## Deployment
+Describe everything that a person will need to run the game.
+
 - Where is it deployed? - Desktop Windows application. 
 - How can they recreate it?
 - What information is needed to get it started? Do not, however, include any passwords in this document!
@@ -214,6 +228,8 @@ What information is being collected for the administrator? How can they access i
 ---
 
 ## Development
+What does a developer need to know in order to continue development on the game? The information on the Software Design Document pages may be useful in thinking about what needs to be captured.
+
 - What platform is it built on, including versions? Be sure to include all dependencies.
 - Where are the source code and assets to be found? This should be in a publicly available repository.
 - What are the key elements of the game? This will differ considerably based on the platform. Where can a developer find details on the game structure? The details need not be included in this document — a reference is fine. Wherever the documentation is, however, it needs to be sufficient for them to find their way around the code and to understand what the different elements are. Be especially careful to identify the key problems that you encountered and solved. These are likely to be subtle points that the next developers will encounter as well.

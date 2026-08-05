@@ -1,26 +1,19 @@
-# Serious Game Design Document Outline
-
-A game design document is the blueprint from which a game is to be built. As such, every single detail necessary to build the game should be addressed. The larger the team and the longer the design and development cycle, the more critical is the need. For your purpose, the intent is to capture as much as possible of your design. I want you to think big…bigger than what you are able to develop. I also want you to be clear about what the software delivers and what the design entails. Use this document to define the ultimate game, but be clear about what you have delivered.
-
-This document also includes elements that are normally considered part of a software design document but are included to give a more complete picture of the game.
-
-You do not need to include all topics and you do not need to use the numbered outline structure for your document, but as a team you should review all items to be sure that you have considered all of these elements and why they are or are not relevant to your game. It should also be easy for me to identify the topic that you are covering.
+# Baseball Rougelike, 
 
 ---
 
-## Title Page (page and all elements are required)
-
 ### Game Name
-This is more important than you think even in a non-commercial environment. It sets the tone for the game's use and gives it an identity.
+TBA
 
 ### Tag Line
 A tag line is a statement or phrase that brands your game. Famous tag lines are "Just do it!", "Got milk?", "The King of Beers". Or from the video game world: Dark Souls: "Prepare to Die", Dead Space: "Only the Dead Survive", Deus Ex: "Trust no one. Question Everything", Pokémon: "Gotta catch em all!"
 
 ### Team
-Names and roles. Remember that your client is part of the team.
+Me 
 
 ### Date of Last Update
 
+-NA-
 ---
 
 ## Revision History
@@ -28,11 +21,7 @@ Only needed if you are working on multiple versions of the document or making ma
 
 ---
 
-## Game Overview (required of all games)
-This is intended as a cohesive paragraph or two that lets someone understand what you are working on. It must include:
-
-### Purpose of the Game
-Pedagogical objective(s) for educational games, training goal, or intended social impact. If it is addressing a problem, explain what that problem is (for example, students have a hard time …)
+## Game Overview 
 
 ### Intended Use
 How the game is to be inserted into a pedagogical scenario or how will it be used in training, therapy, rehabilitation, etc. You should distinguish between a game that is stand alone, a supplement to a class, or working with an instructor.
@@ -48,81 +37,83 @@ There's a significant difference in a game teaching biology to a kindergartener 
 ---
 
 ## Gameplay
-2 Options: 
-Either batting cage game, like the persona game, 
+
+
+The main gameplay of it will be creating a team of "units" with different abilities that are the baseball team. 
+This team of baseball stars will go against different teams, this game will occur in a the main gameplay being one of two Options: 
+Either batting cage game, like the persona game, where the batter must move a cursor to where the pitcher is throwing the ball, and click at the correct time.  
 OR 
-the arcade game where you pull back the bat and have to swing it. 
+The arcade game where you pull back the bat and have to swing it. where the player must release a button at teh correct time and the timing determines the angle of the hit. 
 
 Try both, see whats more fun. 
 There could be a possibility of clicking, while also holding diferent buttons, like being tired, maybe its a physical game. 
+
 ### Objectives
-What are the objectives of the game? Is it to reach a destination, retrieve the chalice, accrue the most money, or solve a puzzle in the fastest amount of time?
+The objective of the game at surface level will be to beat the opposing team in baseball, 
 
 ### Game Progression and Play Flow
-How does the game flow for the game player? Is there an overall scoring and objective for the game or is it a progression of levels?
+The progression will happen in innings (of course), where the player will have to get as many runs before they get 3 outs, it will then go to the opponents batting turn, where the player will attempt to 
+get 3 outs before they get points in the running. This will then repeat for how many ever innings there are. 
+
 
 ### Mission, Challenge or Puzzle Structure
+Each opposing team will be a single "race" where they will have different mechanics. The pitches will be different and the hitting "weak points" will be different. 
 
 ---
 
-## Mechanics (Key Section)
-These are topics that should be covered if relevant. All games are different and not everything applies. Consider this a checklist to help you capture all that is important. It should be complete enough that someone could build a clone of your game based on this detail.
+## Mechanics 
+- Individual characters with different abilities and looks. 
+- A "team builder" that lets the player put different units at different locations according to their different abilites. 
+- A recuritment process to get new units. 
+- A batting minigame, 
+- A pitching minigame, 
+- Rewards and punishments for winning and losing. 
 
 ### Rules
-Include both implicit and explicit rules.
+TBD
 
 ### Model of the Game Universe
-Think of it as a simulation of a world — how do all the pieces interact? If it is a puzzle game, there may be no universe to discuss, but there is the layout and the structure of the puzzle. Included in the universe are:
+TBD 
 
 ### Physics
-How does the physical universe work? If there are no physics, do not try to create them.
+Different stages could have different amounts of physics. 
 
 ### Economy
-What is the economy of the game? How does it work? The economy includes the items that the player is trying to collect as well as a world economy. How does a player earn or lose these items?
+There will be some resource that will allow the player to buy different units, 
 
 ### Character Actions
+While Pitching or batting, characters can have different activated abilities that will be activated by the player, and have respective cooldowns and effects. 
 
-#### Character Movement
-How does the character move?
-
-#### Objects
-How to pick them up and move them. Are there key objects of importance that should be identified here? Is there an inventory that the player maintains or are all interactions transitory?
 
 #### Actions
-What else can the player (or character) do? Include any in-game switches and buttons that are used, interacting with objects, and what means of communication are used.
+The actions the player can take will be limited to the current minigame. 
 
-#### Combat
-If there is combat or even conflict, how is this specifically modeled? What are the differences in weapons?
 
 ### Screen Flow
-How each screen is related to every other and a description of the purpose of each screen.
+TBD
 
 ### Game Options
-What are the options and how do they affect game play?
+- Basic Game Stuff, 
+- Difficulty, 
+- I think thats all thats needed. 
 
 ### Replaying and Saving
 
 ### Cheats and Easter Eggs
-If there are any.
 
 ---
 
 ## Story and Narrative
-If you have a puzzle game, there is probably no backstory or story. As soon as you add an avatar of any sort, you have a story. It may be as simple as who the character is.
+Explain what is going on with the baseball team and competition. Maybe have a intergalatic competition for who plays the best baseball. 
 
-### Backstory
-If there is no plot or narrative in the story but you need to understand the background, that is a backstory. The backstory can also be setting the stage for the story that is going to unfold.
-
-### Plot Elements
-There are multiple patterns of a plot: the 3-act play, the hero's journey, episodic, … Use one of the models to describe the story of the game.
 
 ### Game Story Progression
-Explain how the progression of the plot is exposed to the player. Remember that there are different approaches to the narrative: how it is exposed, who is telling it, and the sequence that things happen. If you are using cut scenes to progress the story, describe the cut scenes in detail.
+Learning more and more about the competition, the prize, and why the main character wants to participate in it, 
 
 ---
 
 ## Game World
-Describe the general look and feel of the world. Of particular importance is whether the world is broken up into different areas that are relevant to the game. If it is, describe how they are connected, how the player moves between them, and how they relate to levels.
+The style of the game depends on which level the player currently is in. The style of the UI stays relatively the same, but the opposing team and effects will change per stage. 
 
 ---
 
@@ -132,10 +123,26 @@ Describe the general look and feel of the world. Of particular importance is whe
 Indicate if the user has the ability to define their own avatar and what options they are able to define.
 
 ### Character List
-Identify which characters are playable and which are not. If there are characters that are relevant to the game but never seen, be sure to include them. Include enemies and opponents. If the enemies are classes only, that is fine. Identify the class and if there is a specific number of them, etc.
+Opposing Teams:
+- 1: 
+   - Team Info
+   - Style
+   - Planet/Level 
 
-### Character Profiles
-For each character, give their backstory, personality, appearance, and abilities.
+- 2: 
+    - Team Info
+   - Style
+   - Planet/Level 
+- 3: 
+    - Team Info
+   - Style
+   - Planet/Level 
+- 4: 
+    - Team Info
+   - Style
+   - Planet/Level 
+
+
 
 ### Character Relevance and Relationships
 Explain the relevance of each character to the story and their relationship to other characters. If certain characters only appear in certain levels or areas, explain that as well.
@@ -160,13 +167,12 @@ For each level, give a synopsis of the level and the objectives of that level. I
 For each level, describe how the map changes and whether it is a crafted or procedurally generated map. If it is procedurally generated, what are the constraints or requirements placed on it?
 
 ### Training Level
-Is there a training level or a playable tutorial?
+There will be a specific tutorial "team" that the player will face against, this will be one with very normal baseball effects. No specific activated abilities, and no unique passives, just normal baseball to learn the 
 
-### Progress Assessment
-How is the player's progress assessed at the end of the level?
+The second stage will be slightly more complex, with a pitcher with an activated ability/gimmick. 
 
 ### Replaying and Unlocking Levels
-Are they allowed to replay levels? Does progression through the levels require a specific level of accomplishment (that is, are subsequent levels being unlocked)?
+They unlock a level by beating the previous one, very similar to psycho baseball. 
 
 ---
 
@@ -178,7 +184,7 @@ Are they allowed to replay levels? Does progression through the levels require a
 - What is the camera model?
 
 ### Control System
-How does the game player control the game? What are the specific commands?
+Most of it will be played with the mouse. 
 
 ### Audio, Music, and Sound Effects
 
@@ -192,18 +198,8 @@ What can the user change?
 
 ---
 
-## Content Additions
-How can the administrator add new content to the game? The information on the Functional Specification and Software Design Document pages may be useful in thinking about this non-game part of the project.
-
----
-
 ## Feedback for the Player
 How can the player tell if they are doing well? Are there mechanisms to tell them what they are doing wrong?
-
----
-
-## Data Collection for the Administrator
-What information is being collected for the administrator? How can they access it?
 
 ---
 
