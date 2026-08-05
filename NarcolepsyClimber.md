@@ -29,7 +29,7 @@ Only needed if you are working on multiple versions of the document or making ma
 ---
 
 ## Game Overview (required of all games)
-The whole point of the game is to show eldrtich horros from the point of a livestock guard dog. Attempting to capture the unfathomable feeling of an eldrictch horror from the mindset of a simple being. Do things with superposition, quantum elements, and cthulu type stuff. I think this will be a top down style game like the zombie one thats in my head
+This is intended as a cohesive paragraph or two that lets someone understand what you are working on. It must include:
 
 ### Purpose of the Game
 Pedagogical objective(s) for educational games, training goal, or intended social impact. If it is addressing a problem, explain what that problem is (for example, students have a hard time …)
@@ -48,10 +48,10 @@ There's a significant difference in a game teaching biology to a kindergartener 
 ---
 
 ## Gameplay
-The player will have to act as a livestock guardian, protecting multiple places and animals. 
+This section would tell a player what to expect. Not a lot of detail (that comes later).
 
 ### Objectives
-Objectives is to make it through the night without losing any of the livestock. 
+What are the objectives of the game? Is it to reach a destination, retrieve the chalice, accrue the most money, or solve a puzzle in the fastest amount of time?
 
 ### Game Progression and Play Flow
 How does the game flow for the game player? Is there an overall scoring and objective for the game or is it a progression of levels?
@@ -64,7 +64,10 @@ How does the game flow for the game player? Is there an overall scoring and obje
 These are topics that should be covered if relevant. All games are different and not everything applies. Consider this a checklist to help you capture all that is important. It should be complete enough that someone could build a clone of your game based on this detail.
 
 ### Rules
-Include both implicit and explicit rules. 
+Include both implicit and explicit rules.
+
+### Model of the Game Universe
+Think of it as a simulation of a world — how do all the pieces interact? If it is a puzzle game, there may be no universe to discuss, but there is the layout and the structure of the puzzle. Included in the universe are:
 
 ### Physics
 How does the physical universe work? If there are no physics, do not try to create them.
@@ -75,7 +78,7 @@ What is the economy of the game? How does it work? The economy includes the item
 ### Character Actions
 
 #### Character Movement
-WASD - to move the dog, mouse to interact. 
+How does the character move?
 
 #### Objects
 How to pick them up and move them. Are there key objects of importance that should be identified here? Is there an inventory that the player maintains or are all interactions transitory?
@@ -84,7 +87,7 @@ How to pick them up and move them. Are there key objects of importance that shou
 What else can the player (or character) do? Include any in-game switches and buttons that are used, interacting with objects, and what means of communication are used.
 
 #### Combat
-The combat encounters will be unique to each level. The 
+If there is combat or even conflict, how is this specifically modeled? What are the differences in weapons?
 
 ### Screen Flow
 How each screen is related to every other and a description of the purpose of each screen.
@@ -114,13 +117,6 @@ Explain how the progression of the plot is exposed to the player. Remember that 
 ---
 
 ## Game World
-The world is going to be a very "gothic horror" style game. Taking place in around the 1500s, so it will be very 
-rustic, very innistrad core.
-
-The animals that are on the farm are, sheep, one single cow, and many chickens. 
-Noteably there are no people on the farm. and the game takes place entirely at night. 
-
-
 Describe the general look and feel of the world. Of particular importance is whether the world is broken up into different areas that are relevant to the game. If it is, describe how they are connected, how the player moves between them, and how they relate to levels.
 
 ---
@@ -131,16 +127,7 @@ Describe the general look and feel of the world. Of particular importance is whe
 Indicate if the user has the ability to define their own avatar and what options they are able to define.
 
 ### Character List
-Animals: 
-Sheep 
-Chicken
-Cow 
-... 
-
-
-Enemies: 
-Wolf? 
-Eldritch God
+Identify which characters are playable and which are not. If there are characters that are relevant to the game but never seen, be sure to include them. Include enemies and opponents. If the enemies are classes only, that is fine. Identify the class and if there is a specific number of them, etc.
 
 ### Character Profiles
 For each character, give their backstory, personality, appearance, and abilities.
@@ -149,14 +136,14 @@ For each character, give their backstory, personality, appearance, and abilities
 Explain the relevance of each character to the story and their relationship to other characters. If certain characters only appear in certain levels or areas, explain that as well.
 
 ### Character AI
-This is going to be complicated, each animal will have their own animal like 
+This is also the place to describe any AI that is used for these characters.
 
 ---
 
 ## Levels
 
 ### General Level Structure
-Maybe defending an animal for each "night" 
+General description of how levels are used. If they are very similar, the detailed level descriptions need not be very long.
 
 ### Skills and Content Per Level
 For each level, describe what additional skills or information they are learning.
@@ -181,7 +168,7 @@ Are they allowed to replay levels? Does progression through the levels require a
 ## User Interface
 
 ### Visual System
-- IIncredibily minimal, I want them to be afraid, have little information. 
+- If there is a HUD, what is on it, how is it displayed, and how is it accessed?
 - What menus are included and how are they navigated?
 - What is the camera model?
 

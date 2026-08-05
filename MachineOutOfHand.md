@@ -1,17 +1,14 @@
 # Serious Game Design Document Outline
 
-A game design document is the blueprint from which a game is to be built. As such, every single detail necessary to build the game should be addressed. The larger the team and the longer the design and development cycle, the more critical is the need. For your purpose, the intent is to capture as much as possible of your design. I want you to think big…bigger than what you are able to develop. I also want you to be clear about what the software delivers and what the design entails. Use this document to define the ultimate game, but be clear about what you have delivered.
-
-This document also includes elements that are normally considered part of a software design document but are included to give a more complete picture of the game.
-
-You do not need to include all topics and you do not need to use the numbered outline structure for your document, but as a team you should review all items to be sure that you have considered all of these elements and why they are or are not relevant to your game. It should also be easy for me to identify the topic that you are covering.
+Created For The Mini Jam : Machines 
+Restriction is: "Out Of Hand" 
 
 ---
 
 ## Title Page (page and all elements are required)
 
 ### Game Name
-This is more important than you think even in a non-commercial environment. It sets the tone for the game's use and gives it an identity.
+Maximum Hand Size
 
 ### Tag Line
 A tag line is a statement or phrase that brands your game. Famous tag lines are "Just do it!", "Got milk?", "The King of Beers". Or from the video game world: Dark Souls: "Prepare to Die", Dead Space: "Only the Dead Survive", Deus Ex: "Trust no one. Question Everything", Pokémon: "Gotta catch em all!"
@@ -28,17 +25,95 @@ Only needed if you are working on multiple versions of the document or making ma
 
 ---
 
+
+## Brainstorming
+
+Machine: Robot, Production. Factorio, 
+
+Out Of Hand: Real Meaning, Overstimulation, Gossip, "Card Game Hand", 
+
+
+
+- A game that takes place on someones hand, they have to keep adding on more cubes while balancing it so it doesnt fall off the side. 
+- Card Game where the cards keep coming, and there are restrictions on how you get them out of your hand. I  like this idea. Maybe do rounds of having to get through a deck, 
+The main idea could be "The TCG factory is going haywire, printing cards left and right, Legally play cards from different games in order to keep your hand size below the maximum." 
+
+- Sorting Algorithm, with mutliple tables, and sorting it into the different tables. 
+
+
+
+Games: 
+
+Pokemon: 
+Fire Energy
+Grass Energy
+
+Charmander - Basic Pokemon - Fire
+Charmeleon - Stage 1 Pokemon - Fire
+Charizard - Stage 2 Pokemon - Fire
+Tropious - Basic Pokemon - Grass
+Shaymin - Basic Pokemon - Grass 
+
+May -  Supporter Card 
+Professors Research - Supporter Card 
+
+Acrobike - Item Card 
+Rare Candy - Item Card 
+Potion - Item Card
+
+MTG: 
+Doom Blade - Instant - Unique Spell Effect 
+One With Nothing - Instant, Unique Spell Effect 
+Thrill Of Possibility - Instant, Unique Spell effect. 
+Altar's Reap - Instant, Unique Spell Effect. 
+Fatefull Showdown - Instant - Unqiue Spell Effect 
+
+Creatrures 
+Drekavac - Creature - Unique Spell Effect. 
+Talyman Of Nurgle - Creature - Unqiue Spell Effect 
+Spellgorger Barbarian - Creature - Unique Spell Effect 
+
+
+Riftbound:
+Scrapyard Champion - Riftbound Unit  - Unique Effect  
+Hwei - Riftbound Unit - Unique Effect has an on move effect 
+KaiSa - Riftbound Unit - Conquer effect 
+Watchful Sentry - Riftbound Unit - Death Effect only. 
+
+Portal Rescue - Riftbound Spell - Unique Effect 
+Get Excited -  Riftbound Spell - Unique Effect 
+
+
+Hearthstone:
+Mark of Y'shaarj - Hearthstone Spell - Unique Effect 
+Whirlwind - Hearthstone Spell - Unique Effect 
+ShadowStrike  - Hearthstone Spell - Unique Effect 
+Fireball - Hearthstone Spell - Deal 6 Damage to any target
+
+Bloodfen Raptor - Hearthstone Creature - Vanilla Unit 
+Annoy-O-Tron - Hearthstone Creature - Kinda Vanilla - Has Taunt and Holy Sheild 
+Razerfen Hunter - Hearthstone Creature - Unique Effect 
+
+Each round, one new game gets added. 
+
+
+Fields: 
+- Base, BattleField, Graveyard, 
+
+
+Test if they want the abilty to pass turn or not, 
+Maybe its on a timer, beacuse thats really important for FnB and MTG and Pokemon. 
+
+Everything needs the stack. 
+
+
+
+
 ## Game Overview (required of all games)
-The whole point of the game is to show eldrtich horros from the point of a livestock guard dog. Attempting to capture the unfathomable feeling of an eldrictch horror from the mindset of a simple being. Do things with superposition, quantum elements, and cthulu type stuff. I think this will be a top down style game like the zombie one thats in my head
+This is intended as a cohesive paragraph or two that lets someone understand what you are working on. It must include:
 
 ### Purpose of the Game
 Pedagogical objective(s) for educational games, training goal, or intended social impact. If it is addressing a problem, explain what that problem is (for example, students have a hard time …)
-
-### Intended Use
-How the game is to be inserted into a pedagogical scenario or how will it be used in training, therapy, rehabilitation, etc. You should distinguish between a game that is stand alone, a supplement to a class, or working with an instructor.
-
-### Justification for the Use
-Is there research that shows that this is apt to be successful? Are there other games or applications that take a similar approach? If this is an experiment to see if it will work, why does the researcher believe that it might?
 
 ### Target Audience
 There's a significant difference in a game teaching biology to a kindergartener or to a college student.
@@ -48,10 +123,10 @@ There's a significant difference in a game teaching biology to a kindergartener 
 ---
 
 ## Gameplay
-The player will have to act as a livestock guardian, protecting multiple places and animals. 
+This section would tell a player what to expect. Not a lot of detail (that comes later).
 
 ### Objectives
-Objectives is to make it through the night without losing any of the livestock. 
+What are the objectives of the game? Is it to reach a destination, retrieve the chalice, accrue the most money, or solve a puzzle in the fastest amount of time?
 
 ### Game Progression and Play Flow
 How does the game flow for the game player? Is there an overall scoring and objective for the game or is it a progression of levels?
@@ -64,7 +139,10 @@ How does the game flow for the game player? Is there an overall scoring and obje
 These are topics that should be covered if relevant. All games are different and not everything applies. Consider this a checklist to help you capture all that is important. It should be complete enough that someone could build a clone of your game based on this detail.
 
 ### Rules
-Include both implicit and explicit rules. 
+Include both implicit and explicit rules.
+
+### Model of the Game Universe
+Think of it as a simulation of a world — how do all the pieces interact? If it is a puzzle game, there may be no universe to discuss, but there is the layout and the structure of the puzzle. Included in the universe are:
 
 ### Physics
 How does the physical universe work? If there are no physics, do not try to create them.
@@ -75,7 +153,7 @@ What is the economy of the game? How does it work? The economy includes the item
 ### Character Actions
 
 #### Character Movement
-WASD - to move the dog, mouse to interact. 
+How does the character move?
 
 #### Objects
 How to pick them up and move them. Are there key objects of importance that should be identified here? Is there an inventory that the player maintains or are all interactions transitory?
@@ -84,7 +162,7 @@ How to pick them up and move them. Are there key objects of importance that shou
 What else can the player (or character) do? Include any in-game switches and buttons that are used, interacting with objects, and what means of communication are used.
 
 #### Combat
-The combat encounters will be unique to each level. The 
+If there is combat or even conflict, how is this specifically modeled? What are the differences in weapons?
 
 ### Screen Flow
 How each screen is related to every other and a description of the purpose of each screen.
@@ -114,13 +192,6 @@ Explain how the progression of the plot is exposed to the player. Remember that 
 ---
 
 ## Game World
-The world is going to be a very "gothic horror" style game. Taking place in around the 1500s, so it will be very 
-rustic, very innistrad core.
-
-The animals that are on the farm are, sheep, one single cow, and many chickens. 
-Noteably there are no people on the farm. and the game takes place entirely at night. 
-
-
 Describe the general look and feel of the world. Of particular importance is whether the world is broken up into different areas that are relevant to the game. If it is, describe how they are connected, how the player moves between them, and how they relate to levels.
 
 ---
@@ -131,16 +202,7 @@ Describe the general look and feel of the world. Of particular importance is whe
 Indicate if the user has the ability to define their own avatar and what options they are able to define.
 
 ### Character List
-Animals: 
-Sheep 
-Chicken
-Cow 
-... 
-
-
-Enemies: 
-Wolf? 
-Eldritch God
+Identify which characters are playable and which are not. If there are characters that are relevant to the game but never seen, be sure to include them. Include enemies and opponents. If the enemies are classes only, that is fine. Identify the class and if there is a specific number of them, etc.
 
 ### Character Profiles
 For each character, give their backstory, personality, appearance, and abilities.
@@ -149,14 +211,14 @@ For each character, give their backstory, personality, appearance, and abilities
 Explain the relevance of each character to the story and their relationship to other characters. If certain characters only appear in certain levels or areas, explain that as well.
 
 ### Character AI
-This is going to be complicated, each animal will have their own animal like 
+This is also the place to describe any AI that is used for these characters.
 
 ---
 
 ## Levels
 
 ### General Level Structure
-Maybe defending an animal for each "night" 
+General description of how levels are used. If they are very similar, the detailed level descriptions need not be very long.
 
 ### Skills and Content Per Level
 For each level, describe what additional skills or information they are learning.
@@ -181,7 +243,7 @@ Are they allowed to replay levels? Does progression through the levels require a
 ## User Interface
 
 ### Visual System
-- IIncredibily minimal, I want them to be afraid, have little information. 
+- If there is a HUD, what is on it, how is it displayed, and how is it accessed?
 - What menus are included and how are they navigated?
 - What is the camera model?
 
