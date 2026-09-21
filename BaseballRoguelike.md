@@ -14,10 +14,6 @@ Me
 ### Date of Last Update
 
 -NA-
----
-
-## Revision History
-Only needed if you are working on multiple versions of the document or making major changes to the game. Probably not needed for most games in this class. However if I review a version that then significantly changes, include the history.
 
 ---
 
@@ -37,8 +33,6 @@ There's a significant difference in a game teaching biology to a kindergartener 
 ---
 
 ## Gameplay
-
-
 The main gameplay of it will be creating a team of "units" with different abilities that are the baseball team. 
 This team of baseball stars will go against different teams, this game will occur in a the main gameplay being one of two Options: 
 Either batting cage game, like the persona game, where the batter must move a cursor to where the pitcher is throwing the ball, and click at the correct time.  
@@ -143,28 +137,22 @@ Opposing Teams:
    - Planet/Level 
 
 
-
-### Character Relevance and Relationships
-Explain the relevance of each character to the story and their relationship to other characters. If certain characters only appear in certain levels or areas, explain that as well.
-
 ### Character AI
-This is also the place to describe any AI that is used for these characters.
+Getting the character AI for each of the opposing teams will be very important. 
 
 ---
 
 ## Levels
 
 ### General Level Structure
-General description of how levels are used. If they are very similar, the detailed level descriptions need not be very long.
+the levels will be each of the new planets that the player reaches. 
 
-### Skills and Content Per Level
-For each level, describe what additional skills or information they are learning.
-
-### Level Synopsis and Objectives
-For each level, give a synopsis of the level and the objectives of that level. If there is introductory material that is required, how is it provided? There are two key aspects to cover in each level: the game play changes and the content changes. In some cases, both change; in other cases, only one does. For example, as levels progress, you may give the player less hints so that they learn the content better and you may increase the frequency of enemies.
 
 ### Level Maps
-For each level, describe how the map changes and whether it is a crafted or procedurally generated map. If it is procedurally generated, what are the constraints or requirements placed on it?
+- Planet 1
+- Planet 2
+- Planet 3
+- Planet 4
 
 ### Training Level
 There will be a specific tutorial "team" that the player will face against, this will be one with very normal baseball effects. No specific activated abilities, and no unique passives, just normal baseball to learn the 
@@ -179,9 +167,7 @@ They unlock a level by beating the previous one, very similar to psycho baseball
 ## User Interface
 
 ### Visual System
-- If there is a HUD, what is on it, how is it displayed, and how is it accessed?
-- What menus are included and how are they navigated?
-- What is the camera model?
+ 
 
 ### Control System
 Most of it will be played with the mouse. 
@@ -189,7 +175,9 @@ Most of it will be played with the mouse.
 ### Audio, Music, and Sound Effects
 
 ### Game Art
-Intended style.
+- A large aspect of the visual style will be a very "retro" game 
+- Pixel art is very good.
+- 
 
 ### Help System
 
@@ -199,25 +187,14 @@ What can the user change?
 ---
 
 ## Feedback for the Player
-How can the player tell if they are doing well? Are there mechanisms to tell them what they are doing wrong?
+The sounds will be very vital for the player to 
 
 ---
 
 ## Deployment
-Describe everything that a person will need to run the game.
-
-- Where is it deployed?
-- How can they recreate it?
-- What information is needed to get it started? Do not, however, include any passwords in this document!
-- What systems are required to run the game?
-- If it is a game that runs on local devices, deployment includes how to rebuild it and where it needs to be stored for users to be able to download it.
-- What configurations and settings are required to get the game working?
+ TBD
 
 ---
 
 ## Development
-What does a developer need to know in order to continue development on the game? The information on the Software Design Document pages may be useful in thinking about what needs to be captured.
-
-- What platform is it built on, including versions? Be sure to include all dependencies.
-- Where are the source code and assets to be found? This should be in a publicly available repository.
-- What are the key elements of the game? This will differ considerably based on the platform. Where can a developer find details on the game structure? The details need not be included in this document — a reference is fine. Wherever the documentation is, however, it needs to be sufficient for them to find their way around the code and to understand what the different elements are. Be especially careful to identify the key problems that you encountered and solved. These are likely to be subtle points that the next developers will encounter as well.
+ TBD
